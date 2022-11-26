@@ -2,7 +2,7 @@
 
 ## Scope
 
-Solve as many challenges as possible from [Advent of Code 2022](https://adventofcode.com/)
+Solve as many challenges as possible from <a href="https://adventofcode.com/" target="_blank">Advent of Code 2022</a>
 
 ## Goals and programming Languages
 
