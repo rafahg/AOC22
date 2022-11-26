@@ -1,5 +1,7 @@
 {
   "trailingComma": "none",
+  "tabWidth": 2,
+  "options.editorconfig" : true ,
   "overrides": [
     {
       "files": "**/lwc/**/*.html",
@@ -10,4 +12,5 @@
       "options": { "parser": "html" }
     }
   ]
+  
 }
