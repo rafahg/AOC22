@@ -15,4 +15,4 @@ Find below a table with the details of everyday challenge.
 
 | Day | Name        | Description | Solution                   |
 | :-- | :---------- | :---------- | :------------------------- |
-| 01  | [TBD](Link) | TBD         | [Apex](linktobedetermined) |
+| 01  | [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) | TBD         | [Apex](linktobedetermined) |
