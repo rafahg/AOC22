@@ -1,5 +1,5 @@
 /**
- * Class challenge Day 1 2022 framework
+ * Class challenge Day 1 2022
  *
  * @author    Rafa Hernandez
  * @created   December 2022
