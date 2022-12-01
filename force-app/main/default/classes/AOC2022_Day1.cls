@@ -9,29 +9,31 @@ public with sharing class AOC2022_Day1 extends AOC_BaseUtils {
     this.processInputLines('AOC2022_Day1_Example');
   }
 
+  public List<Integer> results = new List<Integer>();
+
+  public void run() {
+    caloriesPerElf(this.inputLines);
+    part1();
+    part2();
+  }
+
   /**
    * @method : Part1
    * @return : void method which return debug for part1 solution
    */
-  public void part1() {
-    List<Integer> result = caloriesPerElf(this.inputLines);
-    result.sort();
-
-    System.debug('Solution Part1 ---> ' + result.get(result.size() - 1));
+  private void part1() {
+    System.debug('Solution Part1 ---> ' + results.get(results.size() - 1));
   }
 
   /**
    * @method : Part2
    * @return : void method which return debug for part2 solution
    */
-  public void part2() {
-    List<Integer> result = caloriesPerElf(this.inputLines);
-    result.sort();
-    Integer firstElf = result.get(result.size() - 3);
-    Integer secondElf = result.get(result.size() - 2);
-    Integer thirdElf = result.get(result.size() - 1);
-
-    System.debug('Solution Part2 ---> ' + firstElf + secondElf + thirdElf);
+  private void part2() {
+    Integer firstElf = results.get(results.size() - 3);
+    Integer secondElf = results.get(results.size() - 2);
+    Integer thirdElf = results.get(results.size() - 1);
+    System.debug('Solution Part2 ---> ' + (firstElf + secondElf + thirdElf));
   }
 
   /**
@@ -55,6 +57,8 @@ public with sharing class AOC2022_Day1 extends AOC_BaseUtils {
       }
       index++;
     }
-    return result;
+    result.sort();
+    results = result;
+    return results;
   }
 }
