@@ -55,7 +55,7 @@ public with sharing class AOC2022_Day1 extends AOC_BaseUtils {
       // Placing in a List the sum of all elements before a space.
       if (input != '') {
         sum += Integer.valueOf(input);
-        // Statamente to check if the interation is in the last element of the array and add the last sum
+        // Statament to check if the interation is in the last element of the array and add the last sum
         if (index == inputs.size() - 1) {
           result.add(sum);
         }
