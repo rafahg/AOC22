@@ -21,8 +21,8 @@ public with sharing class AOC2022_Day1 extends AOC_BaseUtils {
   }
 
   /**
-   * @method : Part1
-   * @return : void method which return debug for part1 solution
+   * @method : Part2
+   * @return : void method which return debug for part2 solution
    */
   public void part2() {
     List<Integer> result = caloriesPerElf(this.inputLines);
