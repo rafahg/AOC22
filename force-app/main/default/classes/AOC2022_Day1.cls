@@ -9,8 +9,12 @@ public with sharing class AOC2022_Day1 extends AOC_BaseUtils {
     this.processInputLines('AOC2022_Day1_Example');
   }
 
-  public List<Integer> results = new List<Integer>();
+  private List<Integer> results = new List<Integer>();
 
+  /**
+   * @method : run
+   * @return : void method to run the code using anonymous apex script.
+   */
   public void run() {
     caloriesPerElf(this.inputLines);
     part1();
