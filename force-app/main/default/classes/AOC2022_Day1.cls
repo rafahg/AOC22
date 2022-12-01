@@ -34,6 +34,7 @@ public with sharing class AOC2022_Day1 extends AOC_BaseUtils {
    * @return : void method which return debug for part2 solution
    */
   private void part2() {
+    //Just grabbing the last 3 elements of the sorted list and sum them.
     Integer firstElf = results.get(results.size() - 3);
     Integer secondElf = results.get(results.size() - 2);
     Integer thirdElf = results.get(results.size() - 1);
@@ -42,7 +43,8 @@ public with sharing class AOC2022_Day1 extends AOC_BaseUtils {
 
   /**
    * @method : caloriesPerElf
-   * @params : List<String> with the input of the challenge processed as list of strings
+   * @params : List<String> with the input of the challenge processed as list of strings 
+               with this format [a,b,c, ,d,e,f, ,g,h,i, ,n]
    * @return : List<Integer> where each element of the list is the sum of the calories per elf.
    */
   private List<Integer> caloriesPerElf(List<String> inputs) {
@@ -50,11 +52,14 @@ public with sharing class AOC2022_Day1 extends AOC_BaseUtils {
     Integer sum = 0;
     Integer index = 0;
     for (String input : inputs) {
+      // Placing in a List the sum of all elements before a space.
       if (input != '') {
         sum += Integer.valueOf(input);
+        // Statamente to check if the interation is in the last element of the array and add the last sum
         if (index == inputs.size() - 1) {
           result.add(sum);
         }
+        // Placing the next group of elements after the space until the next one
       } else {
         result.add(sum);
         sum = 0;
