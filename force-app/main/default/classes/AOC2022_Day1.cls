@@ -2,7 +2,7 @@
  * Class challenges Day 1 2021 as example for 2022 framework
  *
  * @author    Rafa Hernandez
- * @created   November 2022
+ * @created   December 2022
  */
 public with sharing class AOC2022_Day1 extends AOC_BaseUtils {
   public AOC2022_Day1() {
