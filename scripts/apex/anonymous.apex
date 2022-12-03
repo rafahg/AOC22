@@ -5,6 +5,6 @@
 // You can also execute the entire file by running the command:
 //     SFDX: Execute Anonymous Apex with Editor Contents
 
-AOC2022_Day1 instance = new AOC2022_Day1();
+AOC2022_Day2 instance = new AOC2022_Day2();
 
 instance.run();
