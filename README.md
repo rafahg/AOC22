@@ -17,4 +17,6 @@ Find below a table with the details of everyday challenge.
 | :-- | :------------------------------------------------------------------ | :---------- | :------------------------------------------------------------------------------------------------ |
 | 01  | [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1)      | TBD         | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day1.cls) |
 | 02  | [Day 2: Rock, Paper, Scissors](https://adventofcode.com/2022/day/2) | TBD         | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day2.cls) |
-| 02  | [Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3)                   | TBD         | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day3.cls) |
+| 03  | [Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3)                   | TBD         | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day3.cls) |
+| 04  | [Day 4: TBD](https://adventofcode.com/2022/day/4)                   | TBD         | [Apex]() |
+| 05  | [Day 5: TBD](https://adventofcode.com/2022/day/5)                   | TBD         | [Apex]() |
