@@ -13,6 +13,7 @@ Also as a mid goal bonus I would try the challenges as well in JS and using LWC 
 
 Find below a table with the details of everyday challenge.
 
-| Day | Name        | Description | Solution                   |
-| :-- | :---------- | :---------- | :------------------------- |
-| 01  | [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) | TBD         | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day1.cls) |
+| Day | Name                                                                | Description | Solution                                                                                          |
+| :-- | :------------------------------------------------------------------ | :---------- | :------------------------------------------------------------------------------------------------ |
+| 01  | [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1)      | TBD         | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day1.cls) |
+| 02  | [Day 2: Rock, Paper, Scissors](https://adventofcode.com/2022/day/2) | TBD         | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day2.cls) |
