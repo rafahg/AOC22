@@ -9,11 +9,11 @@ public with sharing class AOC2022_Day2 extends AOC_BaseUtils {
     this.processInputLines('AOC2022_Day2_Example');
   }
 
-  String elfChoice;
-  String santasHelperChoice;
-  Integer santasHelperPoints = 0;
-  Integer ElfPoints = 0;
-  Boolean isPart2Execution = false;
+  private String elfChoice;
+  private String santasHelperChoice;
+  private Integer santasHelperPoints = 0;
+  private Integer ElfPoints = 0;
+  private Boolean isPart2Execution = false;
 
   AOC2022_Day2.dataProvider dp = new AOC2022_Day2.dataProvider();
   /**
