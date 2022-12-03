@@ -1,5 +1,5 @@
 /**
- * Class to support utils methods to manage logic in challenges
+ * Class to support main classes with utils methods to manage logic in challenges
  * This class is used to obtain the processed data in the constructor of the
  * the daily challenge classes when instanstiated.
  * @author    Rafa Hernandez
