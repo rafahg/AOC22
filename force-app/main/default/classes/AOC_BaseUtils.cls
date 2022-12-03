@@ -9,7 +9,7 @@
 public virtual class AOC_BaseUtils {
   protected List<String> inputLines;
   protected List<Integer> integers;
-
+  protected String alphabetString = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
   /**
    * @method : processInputLines
    * @params String srday : String with the name of the static resource which will be passed in
@@ -45,7 +45,31 @@ public virtual class AOC_BaseUtils {
     return this.integers = intsPlacement;
   }
 
+  /**
+   * @method : slice
+   * @params List<String> strings : List of strings to be sliced
+   *         Integer first : Integer representing the index number where the slicing will start
+   *         Integer last : Integer representing the number of elements since the index selected that will be sliced.
+   * @return  : List with the sliced selected range.
+   * @example : from [a,b,d,c] , executing slice(listToSlice, 0, 2)
+   *            will return [a,b]
+   */
+  protected List<String> slice(List<String> listToSlice, Integer first, Integer last) {
+    List<String> res = listToSlice.clone(), temp;
+    Integer size = listToSlice.size(),
+      startIndex = Math.min(size, Math.max(-1, first < 0 ? size + first : first)),
+      endIndex = Math.min(size, Math.max(-1, last < 0 ? size + last : last - 1)),
+      offset = Math.max(-1, endIndex - startIndex);
+    temp = new List<String>(offset + 1);
+    for (Integer h = 0, i = startIndex, j = endIndex; i <= j;) {
+      temp[h++] = listToSlice[i++];
+    }
+    res.clear();
+    res.addAll(temp);
+    return res;
+  }
 
   //Exception to be used across the class.
-  public class InvalidDataException extends Exception {}
+  public class InvalidDataException extends Exception {
+  }
 }
