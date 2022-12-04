@@ -13,15 +13,15 @@ Also as a mid goal bonus I would try the challenges as well in JS and using LWC 
 
 Find below a table with the details of everyday challenge.
 
-| Day | Name                                                           | Description | Solution                                                                                          |
-| :-- | :------------------------------------------------------------- | :---------- | :------------------------------------------------------------------------------------------------ |
-| 01  | [Calorie Counting](https://adventofcode.com/2022/day/1)        | TBD         | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day1.cls) |
-| 02  | [Rock, Paper, Scissors](https://adventofcode.com/2022/day/2)   | TBD         | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day2.cls) |
-| 03  | [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | TBD         | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day3.cls) |
-| 04  | [Camp Cleanup](https://adventofcode.com/2022/day/4)            | TBD         | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day4.cls) |
-| 05  | [TBD](https://adventofcode.com/2022/day/5)                     | TBD         | [Apex]()                                                                                          |
-| 06  | [TBD](https://adventofcode.com/2022/day/5)                     | TBD         | [Apex]()                                                                                          |
-| 07  | [TBD](https://adventofcode.com/2022/day/5)                     | TBD         | [Apex]()                                                                                          |
-| 08  | [TBD](https://adventofcode.com/2022/day/5)                     | TBD         | [Apex]()                                                                                          |
-| 09  | [TBD](https://adventofcode.com/2022/day/5)                     | TBD         | [Apex]()                                                                                          |
-| 10  | [TBD](https://adventofcode.com/2022/day/5)                     | TBD         | [Apex]()                                                                                          |
+| Day | Name                                                           | Solution                                                                                          |
+| :-- | :------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
+| 01  | [Calorie Counting](https://adventofcode.com/2022/day/1)        | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day1.cls) |
+| 02  | [Rock, Paper, Scissors](https://adventofcode.com/2022/day/2)   | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day2.cls) |
+| 03  | [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day3.cls) |
+| 04  | [Camp Cleanup](https://adventofcode.com/2022/day/4)            | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day4.cls) |
+| 05  | [TBD](https://adventofcode.com/2022/day/5)                     | [Apex]()                                                                                          |
+| 06  | [TBD](https://adventofcode.com/2022/day/5)                     | [Apex]()                                                                                          |
+| 07  | [TBD](https://adventofcode.com/2022/day/5)                     | [Apex]()                                                                                          |
+| 08  | [TBD](https://adventofcode.com/2022/day/5)                     | [Apex]()                                                                                          |
+| 09  | [TBD](https://adventofcode.com/2022/day/5)                     | [Apex]()                                                                                          |
+| 10  | [TBD](https://adventofcode.com/2022/day/5)                     | [Apex]()                                                                                          |
