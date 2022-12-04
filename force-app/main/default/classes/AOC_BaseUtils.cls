@@ -69,6 +69,21 @@ public virtual class AOC_BaseUtils {
     return res;
   }
 
+  /**
+   * @method : reverseString
+   * @params List<String> strings : List of strings to be reversed
+   * @return  : List reversed
+   * @example : from [a,b] , executing reverseStringList(ListToReverse)
+   *            will return [b,a]
+   */
+  private List<String> reverseStringList(List<String> stListToReverse) {
+    List<String> reversed = new List<String>();
+    for (Integer i = stListToReverse.size() - 1; i >= 0; i--) {
+      reversed.add(stListToReverse[i]);
+    }
+    return reversed;
+  }
+
   //Exception to be used across the class.
   public class InvalidDataException extends Exception {
   }
