@@ -20,8 +20,8 @@ Find below a table with the details of everyday challenge.
 | 03  | [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day3.cls) |
 | 04  | [Camp Cleanup](https://adventofcode.com/2022/day/4)            | [Apex](https://github.com/rafahg/AOC22/blob/main/force-app/main/default/classes/AOC2022_Day4.cls) |
 | 05  | [TBD](https://adventofcode.com/2022/day/5)                     | [Apex]()                                                                                          |
-| 06  | [TBD](https://adventofcode.com/2022/day/5)                     | [Apex]()                                                                                          |
-| 07  | [TBD](https://adventofcode.com/2022/day/5)                     | [Apex]()                                                                                          |
-| 08  | [TBD](https://adventofcode.com/2022/day/5)                     | [Apex]()                                                                                          |
-| 09  | [TBD](https://adventofcode.com/2022/day/5)                     | [Apex]()                                                                                          |
-| 10  | [TBD](https://adventofcode.com/2022/day/5)                     | [Apex]()                                                                                          |
+| 06  | [TBD](https://adventofcode.com/2022/day/6)                     | [Apex]()                                                                                          |
+| 07  | [TBD](https://adventofcode.com/2022/day/7)                     | [Apex]()                                                                                          |
+| 08  | [TBD](https://adventofcode.com/2022/day/8)                     | [Apex]()                                                                                          |
+| 09  | [TBD](https://adventofcode.com/2022/day/9)                     | [Apex]()                                                                                          |
+| 10  | [TBD](https://adventofcode.com/2022/day/10)                    | [Apex]()                                                                                          |
