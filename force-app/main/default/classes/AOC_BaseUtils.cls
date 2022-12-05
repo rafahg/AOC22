@@ -9,6 +9,7 @@
 public virtual class AOC_BaseUtils {
   protected List<String> inputLines;
   protected List<Integer> integers;
+  protected List<String> otherInputs;
   protected String alphabetString = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
   /**
    * @method : processInputLines
@@ -28,6 +29,21 @@ public virtual class AOC_BaseUtils {
     }
 
     this.inputLines = input.split('\\n');
+  }
+
+  protected void processInputLinesb(String srdayb) {
+    List<StaticResource> srList = [
+      SELECT Id, Body
+      FROM StaticResource
+      WHERE Name = :srdayb
+    ];
+    String input = (!srList.isEmpty()) ? srList[0].Body?.toString() : null;
+
+    if (String.isBlank(input)) {
+      throw new InvalidDataException('No Static Resource was found with name ' + srdayb + ': ' + JSON.serializePretty(srList));
+    }
+
+    this.otherInputs = input.split('\\n');
   }
 
   /**
