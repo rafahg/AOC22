@@ -1,6 +1,6 @@
 // Temporary solution that is working but needs massive refactoring. Is efficient though.
 /**
- * Class challenge Day 1 2022
+ * Class challenge Day 5 2022
  *
  * @author    Rafa Hernandez
  * @created   December 2022
